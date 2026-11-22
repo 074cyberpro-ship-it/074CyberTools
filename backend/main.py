@@ -9,7 +9,7 @@ import ipaddress
 
 app = Flask(__name__)
 
-APP_NAME = "074CyberTools"
+APP_NAME = "074CyberToolsV1.0"
 DEVELOPER = "ereecx1st"
 VERSION = "1.1.0"
 
@@ -53,7 +53,7 @@ def get_ip():
             response = requests.get(
                 url,
                 timeout=10,
-                headers={"User-Agent": "074CyberTools/1.1"}
+                headers={"User-Agent": "074CyberToolsV1.0/1.1"}
             )
             response.raise_for_status()
 
