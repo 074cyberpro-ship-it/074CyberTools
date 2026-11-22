@@ -1,0 +1,6 @@
+flask
+requests
+feedparser
+dnspython
+certifi
+gunicorn
